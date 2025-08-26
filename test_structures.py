@@ -1,7 +1,7 @@
 import unittest
 import random
-from queue import Queue
-from stack import is_valid_parentheses
+from custom_queue import Queue
+from custom_stack import is_valid_parentheses
 
 class TestQueueLab(unittest.TestCase):
     def setUp(self):

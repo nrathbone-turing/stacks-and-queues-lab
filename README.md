@@ -26,14 +26,14 @@ By focusing on **LIFO** (last-in, first-out) and **FIFO** (first-in, first-out) 
 
 ### Stack Functionality
 
-- **File**: `stack.py`
+- **File**: `custom_stack.py`
 - **Function**:  
   - `is_valid_parentheses(s: str) -> bool`  
   - Returns `True` if the parentheses in the string are balanced.
 
 ### Queue Class Design
 
-- **File**: `queue.py`
+- **File**: `custom_queue.py`
 - **Class**: `Queue`
 - **Methods**:
   - `enqueue(item)`  
