@@ -30,5 +30,15 @@ class Queue:
         Dequeues all items up to and including the winner.
         Returns the name of the winning customer.
         """
-        # TODO: Implement winner selection and dequeue process
-        pass
+        if self.is_empty():
+            return None
+
+        # pick a random index within the queue
+        winner_index = random.randrange(len(self.items))
+        winner = self.items[winner_index]
+
+        # dequeue everyone up to and including the winner
+        self.items = self.items[winner_index + 1:]
+
+        return winner
+
